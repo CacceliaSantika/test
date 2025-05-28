@@ -3,167 +3,48 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Caccelia Santika | Fashion Designer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Open+Sans&display=swap" rel="stylesheet">
-  <style>
-    * {
-      box-sizing: border-box;
-      scroll-behavior: smooth;
-    }
-
-    body {
-      margin: 0;
-      font-family: 'Open Sans', sans-serif;
-      background-color: #fff;
-      color: #2b2b2b;
-    }
-
-    header {
-      background-image: url('https://images.unsplash.com/photo-1520975916090-310595a1ab79?auto=format&fit=crop&w=1500&q=80');
-      background-size: cover;
-      background-position: center;
-      color: white;
-      text-align: center;
-      padding: 6rem 2rem;
-    }
-
-    header h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 3rem;
-      margin-bottom: 0.5rem;
-    }
-
-    header p {
-      font-size: 1.2rem;
-      opacity: 0.9;
-    }
-
-    nav {
-      background-color: #f8f8f8;
-      padding: 1rem;
-      text-align: center;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
-    }
-
-    nav a {
-      margin: 0 1.5rem;
-      text-decoration: none;
-      font-weight: bold;
-      color: #333;
-      transition: color 0.3s;
-    }
-
-    nav a:hover {
-      color: #ba5f50;
-    }
-
-    section {
-      padding: 4rem 2rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    section h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2rem;
-      margin-bottom: 1.5rem;
-      border-left: 5px solid #ba5f50;
-      padding-left: 1rem;
-    }
-
-    .portfolio {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-    }
-
-    .portfolio img {
-      width: 100%;
-      border-radius: 12px;
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-      transition: transform 0.4s ease, box-shadow 0.4s ease;
-    }
-
-    .portfolio img:hover {
-      transform: scale(1.03);
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-    }
-
-    .contact p {
-      font-size: 1.1rem;
-      line-height: 1.8;
-    }
-
-    a {
-      color: #ba5f50;
-    }
-
-    footer {
-      background-color: #2b2b2b;
-      color: #fff;
-      text-align: center;
-      padding: 2rem;
-    }
-
-    @media (max-width: 600px) {
-      nav a {
-        margin: 0 0.5rem;
-        display: inline-block;
-      }
-
-      header h1 {
-        font-size: 2rem;
-      }
-
-      section {
-        padding: 2rem 1rem;
-      }
-    }
-  </style>
+  <title>Portfolio Cacelia Santika</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <header>
+    <nav>
+      <a href="#projects">PROJECTS</a>
+      <a href="#about">ABOUT</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </header>
 
-<header>
-  <h1>Caccelia Santika</h1>
-  <p>Fashion Designer | Visionary | Creator of Elegant Silhouettes</p>
-</header>
+  <div class="container">
+    <div class="card intro">
+      <h2>Hello, <br> I’m Caccelia Santika</h2>
+    </div>
 
-<nav>
-  <a href="#about">Tentang</a>
-  <a href="#portfolio">Portofolio</a>
-  <a href="#contact">Kontak</a>
-</nav>
+    <div class="card gallery">
+      <h3>Gallery</h3>
+      <img src="https://via.placeholder.com/250x400.png?text=Fashion+Sketch" alt="Fashion Sketch"/>
+    </div>
 
-<section id="about">
-  <h2>Tentang Saya</h2>
-  <p>
-    Saya adalah seorang fashion designer dengan dedikasi tinggi terhadap keindahan, inovasi, dan ekspresi melalui desain. Selama lebih dari 7 tahun, saya telah menciptakan berbagai koleksi dari ready-to-wear hingga couture, menghadirkan perpaduan antara estetika modern dan identitas budaya. Setiap karya saya adalah pernyataan, setiap garis adalah cerita.
-  </p>
-</section>
+    <div class="card bio">
+      <p>Fashion designer dengan 10 tahun pengalaman dalam desain busana ready-to-wear, haute couture, dan streetwear. Menggabungkan estetika modern dengan nilai-nilai budaya lokal untuk menciptakan karya yang unik dan fungsional.</p>
+    </div>
 
-<section id="portfolio">
-  <h2>Portofolio</h2>
-  <div class="portfolio">
-    <img src="https://source.unsplash.com/400x500/?fashion,model" alt="Koleksi 1">
-    <img src="https://source.unsplash.com/400x500/?fashion,design" alt="Koleksi 2">
-    <img src="https://source.unsplash.com/400x500/?couture" alt="Koleksi 3">
-    <img src="https://source.unsplash.com/400x500/?style,fashion" alt="Koleksi 4">
+    <div class="card contact">
+      <p><strong>Have some questions?</strong></p>
+      <p>
+        Email: [email@example.com]<br>
+        Telepon: [0812-XXXX-XXXX]<br>
+        Website/Instagram: @namabrand<br>
+        <a href="https://www.namaportofolio.com" target="_blank">www.namaportofolio.com</a>
+      </p>
+      <h3>Contact me</h3>
+    </div>
   </div>
-</section>
 
-<section id="contact" class="contact">
-  <h2>Kontak</h2>
-  <p>Email: <a href="mailto:caccelia.fashion@gmail.com">caccelia.fashion@gmail.com</a></p>
-  <p>Instagram: <a href="https://instagram.com/caccelia.design" target="_blank">@caccelia.design</a></p>
-  <p>LinkedIn: <a href="https://linkedin.com/in/cacceliasantika" target="_blank">Caccelia Santika</a></p>
-</section>
-
-<footer>
-  <p>&copy; 2025 Caccelia Santika. All rights reserved.</p>
-</footer>
-
+  <footer>
+    <a href="#">INSTAGRAM</a> | 
+    <a href="#">TWITTER</a> | 
+    <a href="#">LINKEDIN</a>
+  </footer>
 </body>
 </html>
