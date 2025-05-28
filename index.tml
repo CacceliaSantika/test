@@ -4,7 +4,63 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Portfolio Cacelia Santika</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #fff;
+      color: #000;
+    }
+    header {
+      background-color: #9ef0ff;
+      padding: 1em;
+      text-align: center;
+      border-radius: 20px;
+      margin: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin: 20px;
+    }
+    .card {
+      background-color: #a6e9f5;
+      padding: 20px;
+      border-radius: 15px;
+      flex: 1 1 250px;
+      min-width: 250px;
+    }
+    .gallery {
+      background-color: #d6f7ff;
+      text-align: center;
+    }
+    .gallery img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #a6e9f5;
+      text-align: center;
+      padding: 1em;
+      border-radius: 15px;
+      margin: 20px;
+    }
+    a {
+      color: #0077b6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -16,20 +72,20 @@
   </header>
 
   <div class="container">
-    <div class="card intro">
+    <div class="card" style="flex: 1 1 300px;">
       <h2>Hello, <br> I’m Caccelia Santika</h2>
     </div>
 
-    <div class="card gallery">
+    <div class="card gallery" style="flex: 1 1 300px;">
       <h3>Gallery</h3>
       <img src="https://via.placeholder.com/250x400.png?text=Fashion+Sketch" alt="Fashion Sketch"/>
     </div>
 
-    <div class="card bio">
+    <div class="card">
       <p>Fashion designer dengan 10 tahun pengalaman dalam desain busana ready-to-wear, haute couture, dan streetwear. Menggabungkan estetika modern dengan nilai-nilai budaya lokal untuk menciptakan karya yang unik dan fungsional.</p>
     </div>
 
-    <div class="card contact">
+    <div class="card">
       <p><strong>Have some questions?</strong></p>
       <p>
         Email: [email@example.com]<br>
