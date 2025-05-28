@@ -2,105 +2,130 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Portfolio Cacelia Santika</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portofolio Caccelia Santika</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      background: #fff;
-      color: #000;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e6f4fa;
+      color: #333;
     }
     header {
-      background-color: #9ef0ff;
-      padding: 1em;
+      background-color: #b3e5fc;
+      padding: 2rem;
       text-align: center;
-      border-radius: 20px;
-      margin: 10px;
+      border-bottom: 4px solid #81d4fa;
+    }
+    header h1 {
+      margin: 0;
+      color: #01579b;
+    }
+    nav {
+      text-align: center;
+      margin-top: 1rem;
     }
     nav a {
-      margin: 0 15px;
+      margin: 0 1rem;
       text-decoration: none;
-      color: black;
+      color: #0277bd;
       font-weight: bold;
     }
-    .container {
+    section {
+      padding: 2rem;
+    }
+    .collection {
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
-      gap: 15px;
-      margin: 20px;
+      gap: 1.5rem;
     }
-    .card {
-      background-color: #a6e9f5;
-      padding: 20px;
-      border-radius: 15px;
-      flex: 1 1 250px;
-      min-width: 250px;
-    }
-    .gallery {
-      background-color: #d6f7ff;
-      text-align: center;
-    }
-    .gallery img {
-      max-width: 100%;
-      border-radius: 10px;
+    .collection-item {
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+      flex: 1 1 300px;
     }
     footer {
-      background-color: #a6e9f5;
+      background-color: #b3e5fc;
       text-align: center;
-      padding: 1em;
-      border-radius: 15px;
-      margin: 20px;
+      padding: 1rem;
+      margin-top: 2rem;
+      border-top: 4px solid #81d4fa;
     }
-    a {
-      color: #0077b6;
-      text-decoration: none;
+    button {
+      background-color: #81d4fa;
+      border: none;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      color: #01579b;
+      font-weight: bold;
     }
-    a:hover {
-      text-decoration: underline;
+    button:hover {
+      background-color: #4fc3f7;
     }
   </style>
 </head>
 <body>
   <header>
-    <nav>
-      <a href="#projects">PROJECTS</a>
-      <a href="#about">ABOUT</a>
-      <a href="#contact">CONTACT</a>
-    </nav>
+    <h1>Caccelia Santika</h1>
+    <p>Fashion Designer | Creative Soul | Color Enthusiast</p>
   </header>
 
-  <div class="container">
-    <div class="card" style="flex: 1 1 300px;">
-      <h2>Hello, <br> I’m Caccelia Santika</h2>
-    </div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#collections">Collections</a>
+    <a href="#services">What I Do</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <div class="card gallery" style="flex: 1 1 300px;">
-      <h3>Gallery</h3>
-      <img src="https://via.placeholder.com/250x400.png?text=Fashion+Sketch" alt="Fashion Sketch"/>
-    </div>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hai! Aku Caccelia Santika, fashion designer yang menyukai warna-warna pastel dan desain yang fun! Fokusku adalah ready-to-wear dengan sentuhan feminin, playful, dan sedikit edgy.</p>
+  </section>
 
-    <div class="card">
-      <p>Fashion designer dengan 10 tahun pengalaman dalam desain busana ready-to-wear, haute couture, dan streetwear. Menggabungkan estetika modern dengan nilai-nilai budaya lokal untuk menciptakan karya yang unik dan fungsional.</p>
+  <section id="collections">
+    <h2>Collections</h2>
+    <div class="collection">
+      <div class="collection-item">
+        <h3>Bloomscape (2024)</h3>
+        <p>Flora tropis dengan siluet modern. Warna: baby blue, lavender, pink lembut.</p>
+        <button>Lihat Koleksi</button>
+      </div>
+      <div class="collection-item">
+        <h3>Whimsical Denim (2023)</h3>
+        <p>Patchwork dan jaket statement dalam warna sky blue, lemon, mint.</p>
+        <button>Lihat Koleksi</button>
+      </div>
+      <div class="collection-item">
+        <h3>Pastel Riot (2022)</h3>
+        <p>Eksplorasi bentuk eksentrik dan color blocking.</p>
+        <button>Lihat Koleksi</button>
+      </div>
     </div>
+  </section>
 
-    <div class="card">
-      <p><strong>Have some questions?</strong></p>
-      <p>
-        Email: [email@example.com]<br>
-        Telepon: [0812-XXXX-XXXX]<br>
-        Website/Instagram: @namabrand<br>
-        <a href="https://www.namaportofolio.com" target="_blank">www.namaportofolio.com</a>
-      </p>
-      <h3>Contact me</h3>
-    </div>
-  </div>
+  <section id="services">
+    <h2>What I Do</h2>
+    <ul>
+      <li>Fashion Design & Development</li>
+      <li>Textile Concept & Fabric Selection</li>
+      <li>Fashion Illustration</li>
+      <li>Moodboard & Concept Building</li>
+      <li>Trend Forecasting</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Let’s Create Together!</h2>
+    <p>Email: hello@cacceliasantika.com</p>
+    <p>Instagram: @cacceliasantika</p>
+    <button onclick="window.location='mailto:hello@cacceliasantika.com'">Email Me</button>
+  </section>
 
   <footer>
-    <a href="#">INSTAGRAM</a> | 
-    <a href="#">TWITTER</a> | 
-    <a href="#">LINKEDIN</a>
+    <p>&copy; 2025 Caccelia Santika. All rights reserved.</p>
   </footer>
 </body>
 </html>
